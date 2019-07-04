@@ -4,7 +4,7 @@ def turn_count(turn)
   turn.each do |unit|
     #counter = 0
     if unit == "X" || unit == "O"
-      #puts "spot taken"
+
       moves.push(1)
 
     end 
