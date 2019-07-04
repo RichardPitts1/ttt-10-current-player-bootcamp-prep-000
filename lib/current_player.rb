@@ -9,6 +9,8 @@ def turn_count(turn)
   moves.length.to_i
 end 
 
+board = ["X","X"," "," ",""," "," "," "," "]
+
 def current_player(board)
   #if turn_count(board) % == 0   
   num = turn_count(board)
